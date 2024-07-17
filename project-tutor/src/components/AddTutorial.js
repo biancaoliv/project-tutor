@@ -16,7 +16,7 @@ const AddTutorial = () => {
     setStartDate("");
     setEndDate("");
   };
-  //atualiza o valor da variavel
+  //atualiza o valor da variavel (quando usuário add)
   return (
     <div>
       <h2>Add Tutorial</h2>
