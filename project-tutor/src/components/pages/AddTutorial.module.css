@@ -1,0 +1,12 @@
+.add_container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+    background: var(--highlight1) linear-gradient(to bottom right, var(--highlight1) 25%, var(--highlight2));
+    text-shadow: 0 0 2px var(--highlight1);
+    color: #fff;
+    border-radius: 20px;
+}
+.add_container h1 {
+    margin-bottom: 0.5em;
+  }

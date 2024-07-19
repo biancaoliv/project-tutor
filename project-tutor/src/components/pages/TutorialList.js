@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styles from './TutorialList.module.css'
 
 const TutorialList = () => {
   const watchedTutorials = [
@@ -40,7 +41,7 @@ const TutorialList = () => {
     },
   ];
   return (
-    <div>
+    <div className={styles.tutor_list}>
       <h2>Tutorials List</h2>
       <ul>
         {watchedTutorials.map(tutorial => (

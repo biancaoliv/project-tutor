@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-
+import styles from "./Tutorial.module.css"
 const Tutorial = () => {
   const { id } = useParams();
 
@@ -15,7 +15,7 @@ const Tutorial = () => {
   const tutorial = tutorials.find(tutorial => tutorial.id === parseInt(id)); //encontrar o tutorial com base no id
 
   return (
-    <div>
+    <div className={styles.tutorial_container}>
       <h2>{tutorial.title}</h2>
       <p>
         <strong>Description: </strong> {tutorial.description}

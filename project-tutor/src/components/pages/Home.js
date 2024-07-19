@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
-import stay from "../components/img/stay.png";
-import AddButton from "../components/layout/AddButton";
+import stay from "../img/stay.png";
+import AddButton from "../layout/AddButton";
 
 function Home() {
   return (
